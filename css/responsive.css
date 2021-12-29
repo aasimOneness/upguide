@@ -1,0 +1,119 @@
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media (max-width: 320px) {
+}
+@media (max-width: 360px) {
+}
+@media (max-width: 480px) {
+}
+@media (max-width: 640px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 860px) {
+  .banner {
+    height: auto;
+  }
+  .step {
+    top: 0;
+  }
+  .icon-menu {
+    color: #18113c;
+  }
+  .resp_img img {
+    width: 100%;
+  }
+  .banner h1 {
+    font-size: 28px;
+    line-height: 37px;
+    margin-bottom: 8px;
+  }
+  .page_title p {
+    width: 100%;
+  }
+  .page_title h4 {
+    font-size: 19px;
+    line-height: 32px;
+  }
+  .st1 p,
+  .st2 p {
+    width: 61%;
+  }
+  .st1:nth-child(1) {
+    right: 0;
+  }
+  .st1:nth-child(2) {
+    right: 0;
+  }
+  .st1:nth-child(3) {
+    right: 0;
+  }
+  .st1:nth-child(4) {
+    right: 0;
+  }
+  .st2:nth-child(1) {
+    left: 0;
+  }
+  .st2:nth-child(2) {
+    left: 0;
+  }
+  .st2:nth-child(3) {
+    left: 0;
+  }
+  .st2:nth-child(4) {
+    left: 0;
+  }
+  .free-btn {
+    top: 0;
+  }
+  .fim {
+    display: none;
+  }
+  .features h5 {
+    margin: 15px 0;
+  }
+  .price_section {
+    overflow: hidden;
+  }
+  .teacher_name img {
+    width: 60% !important;
+    margin: 0 auto;
+  }
+  .skillitem .owl-prev {
+    left: -8px;
+  }
+  .skillitem .owl-next {
+    right: -8px;
+  }
+  .features {
+    overflow: hidden;
+  }
+  .skillitem .item .card {
+    height: 450px;
+  }
+}
+@media all and (min-width: 992px) {
+  .navbar .nav-item .dropdown-menu {
+    display: none;
+  }
+  .navbar .nav-item:hover .dropdown-menu {
+    display: block;
+  }
+  .navbar .nav-item .dropdown-menu {
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 786px) {
+  .modal-dialog {
+    max-width: 50%;
+    margin: 1.75rem auto;
+  }
+  #videoModalCenter .modal-body iframe{
+	  height: 500px;
+  }
+}
