@@ -1229,13 +1229,22 @@ img.vert-move {
   height: 45px;
   line-height: 45px;
   text-align: center;
-  color: #c80404;
+  color: #fff;
   font-size: 18px;
   font-weight: 700;
   border-radius: 50%;
-  background-color: #fff;
+  background-color: #02538c;
   margin: auto;
   margin-bottom: 10px;
+  position: absolute;
+  top: -10%;
+  left: 0;
+  right: 0;
+}
+
+.bg-blue{
+  background-color: #bde5ff;
+  padding-top: 15px;
 }
 
 .loan-step h5{
@@ -1243,7 +1252,7 @@ img.vert-move {
   font-weight: 600;
 }
 .circle-imge {
-  background: #d10e08;
+  background: #02538c;
   padding: 17px;
   border-radius: 50%;
   width: 100px;
