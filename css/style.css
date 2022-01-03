@@ -1215,7 +1215,7 @@ img.vert-move {
 	right: 20px;
 	bottom: 0;
 	top: 103px;
-	background-color: #f6f6f6;
+	background-color: #dbe3f3;
 	border: 1px solid rgba(251, 90, 13, 0.1);
 	border-radius: 10px;
 	z-index: -1;
@@ -1313,4 +1313,60 @@ img.vert-move {
   color: #4b504e;
   list-style-type: square;
   padding: 10px 15px;
+}
+
+
+
+
+
+/*=============Width us================*/
+.ser-pricing img{
+	width: 60px;
+  object-fit: scale-down;
+}
+
+.withus_text p{
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+.withus_text h3 {
+	font-size: 28px;
+	line-height: 30px;
+	font-weight: 900;
+	text-align: left;
+	color: #4b504e;
+	/* margin-left: 15px; */
+}
+.withus_text .card {
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+	background: #dbe3f3;
+	color: #4b504e;
+	height: 100%;
+}
+
+.withus_text .card:hover {
+	box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175)!important;
+}
+
+.withus_text .card ul {
+	margin: 35px 0;
+	padding: 0;
+}
+
+.withus_text .card ul li {
+	display: block;
+	line-height: 24px;
+	font-weight: 500;
+	padding: 8px 0;
+	border-bottom: 1px solid #c0c5d5;
+	background: url('../img/fwd-arrow.png') no-repeat 0 10px;
+	padding-left: 26px;
+	font-size: 15px;
+	background-size: 15px;
+	color: #2f3232;
 }
