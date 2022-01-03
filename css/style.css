@@ -972,6 +972,7 @@ img.vert-move {
   font-size: 22px;
   font-weight: 600;
   margin: 8px 0;
+  transition: all 0.2s ease-in-out;
   overflow: hidden;
   text-overflow: ellipsis;
   -webkit-line-clamp: 2;
@@ -990,9 +991,13 @@ img.vert-move {
 .blog-grid .card {
   cursor: pointer;
   width: 100%;
+  transition: all 0.2s ease-in-out;
 }
 .blog-grid .card:hover {
   box-shadow: 0 5px 12px rgb(126 142 177 / 20%);
+}
+.blog-grid .card:hover h3{
+  color: #dd2c00;
 }
 .blog-meta img {
   width: 50px;
@@ -1020,13 +1025,13 @@ img.vert-move {
   display: inherit;
 }
 .tab-content h5 {
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 600;
   line-height: 40px;
 }
 .tab-content p {
   color: #5c5776;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 26px;
 }
@@ -1095,11 +1100,11 @@ img.vert-move {
   color: #fff;
 }
 .who-we-are h4 {
-  font-size: 50px;
+  font-size: 32px;
   color: #18113c;
   line-height: 56px;
   font-weight: 700;
-  margin-bottom: 32px;
+  margin-bottom: 12px;
 }
 .who-we-are p {
   font-size: 14px;
