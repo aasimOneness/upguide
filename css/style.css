@@ -1370,3 +1370,15 @@ img.vert-move {
 	background-size: 15px;
 	color: #2f3232;
 }
+
+.g-training h4{
+  font-size: 21px;
+  margin-bottom: 15px;
+}
+.g-training ol li{
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: #5c5776;
+}
