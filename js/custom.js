@@ -144,7 +144,22 @@
   }); //end ready
   
 
+  // Footer Content Read More / Read Less 
+  
+  $('.footer-readmore').click(function() {
+    $('.foot-note').toggleClass('d-block');
+    $('.footer-readmore').toggleClass('read-less');
+    if ($('.footer-readmore').hasClass('read-less')) {
+      $('.read-less').text("Read Less...")
+    }else{
+      $('.footer-readmore').text("Read More...")
+    }
+  });
+
 })(jQuery, window);
+
+  // let readLess = document.querySelector('.read-less');
+  // readLess.innerHTML('Read Less...')
 
 /*--------------Menu---------------------*/
 
