@@ -992,13 +992,17 @@ img.vert-move {
   width: 100%;
   transition: all 0.2s ease-in-out;
 }
+.blog-grid .card img{
+  height: 200px;
+  object-fit: cover;
+}
 .blog-grid .card:hover {
   box-shadow: 0 5px 12px rgb(126 142 177 / 20%);
 }
 .blog-grid .card:hover h3 {
   color: #dd2c00;
 }
-.blog-meta img {
+.blog-grid .card .blog-meta img {
   width: 50px;
   height: 50px;
   object-fit: cover;
