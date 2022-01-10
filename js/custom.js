@@ -80,7 +80,7 @@
     },
   });
 
-  $(document).ready(function() {
+  $(document).ready(function () {
     $(".testimonials-step .step-tab a").click(function () {
       var tab_id = $(this).attr("data-tab");
 
@@ -118,7 +118,6 @@
     AOS.refresh();
   });
 
-
   jQuery(document).ready(function ($) {
     var feedbackSlider = $(".feedback-slider");
     feedbackSlider.owlCarousel({
@@ -131,33 +130,30 @@
       touchDrag: true,
       navText: [
         "<i class='fa fa-long-arrow-left'></i>",
-        "<i class='fa fa-long-arrow-right'></i>"
+        "<i class='fa fa-long-arrow-right'></i>",
       ],
       responsive: {
         // breakpoint from 767 up
         767: {
           nav: true,
-          dots: false
-        }
-      }
+          dots: false,
+        },
+      },
     });
   }); //end ready
-  
 
-  // Footer Content Read More / Read Less 
-  
-  $('.footer-readmore').click(function() {
-    $('.foot-note').toggleClass('d-block');
-    $('.footer-readmore').toggleClass('read-less');
-    if ($('.footer-readmore').hasClass('read-less')) {
-      $('.read-less').text("Read Less...")
-    }else{
-      $('.footer-readmore').text("Read More...")
+  // Footer Content Read More / Read Less
+
+  $(".footer-readmore").click(function () {
+    $(".foot-note").toggleClass("d-block");
+    $(".footer-readmore").toggleClass("read-less");
+    if ($(".footer-readmore").hasClass("read-less")) {
+      $(".read-less").text("Read Less...");
+    } else {
+      $(".footer-readmore").text("Read More...");
     }
   });
-
 })(jQuery, window);
-
 
 /*--------------Menu---------------------*/
 
@@ -243,3 +239,16 @@ $(function () {
   };
   siteMenuClone();
 });
+
+
+// Testimonials Dynamic Modal JS
+
+let testImage = document.querySelectorAll(".test-thumb");
+
+testImage.forEach((t) => t.addEventListener("click", getValue));
+
+function getValue() {
+  let modal = document.getElementById("modalIframe");
+  let value = this.childNodes[1].value;
+  modal.setAttribute("src", value);
+}

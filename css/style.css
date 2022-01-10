@@ -1040,6 +1040,7 @@ img.vert-move {
 }
 .test-thumb img {
   width: 100%;
+  cursor: pointer;
 }
 .testimonials-step .card {
   border-radius: 0 !important;
