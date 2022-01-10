@@ -158,8 +158,6 @@
 
 })(jQuery, window);
 
-  // let readLess = document.querySelector('.read-less');
-  // readLess.innerHTML('Read Less...')
 
 /*--------------Menu---------------------*/
 
